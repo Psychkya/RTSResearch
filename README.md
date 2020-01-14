@@ -13,7 +13,7 @@ Issue 2: make threw and error saying -r and -pie are not compatible. Found the m
 
 Files changed:
 
-components/lib/libcxx/libstdc++-v3-4.8/Makefile.inc
-components/lib/musl-1.1.11/config.mak
-components/lib/ps/Makefile.inc
+components/lib/libcxx/libstdc++-v3-4.8/Makefile.inc  
+components/lib/musl-1.1.11/config.mak  
+components/lib/ps/Makefile.inc  
 
