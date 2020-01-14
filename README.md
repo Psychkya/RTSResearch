@@ -5,7 +5,7 @@
 ### Info on composite https://composite.seas.gwu.edu/
 
 ### 1. Building composite
-### Running into issues on 64bit Ubuntu
+Running into issues on 64bit Ubuntu
 
 Issue 1: make init threw errors saying that assembly instructions included in a header file is not 64bit compatible. The linker was using 64bit libraries. Crawling through the spaghetti of makefiles, found src/components/lib/ps/Makefile.inc that was missing the -m32 option for gcc. Was a shot in the dark, but make init worked.
 
